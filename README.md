@@ -7,7 +7,7 @@ Replication files for the paper **"Forecasting Dynamic Panel Models with Shrinka
 - `code/simulations/01_monte_carlo_simulation.R`: Monte Carlo simulation for one design.
 - `code/simulations/02_make_mse_figures.R`: figures based on the Monte Carlo output tables.
 - `code/empirical/03_empirical_application_compustat.R`: empirical application using Compustat data from WRDS.
-- `data/`: local data folder. Raw Compustat data should not be committed.
+- `data/`: local data folder. Raw Compustat panel data (accessed through WRDS).
 - `output/figures/`: generated figures.
 - `output/tables/`: generated tables.
 
