@@ -47,3 +47,11 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Proprietary data (Compustat via WRDS): not distributed
+data/*
+!data/README_data.md
+*.csv
+# Outputs created by the scripts
+results/
+*.rds
